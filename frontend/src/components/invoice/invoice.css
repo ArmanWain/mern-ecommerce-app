@@ -1,0 +1,172 @@
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#order_invoice {
+  height: 1100px;
+  width: 850px;
+  overflow-y: auto;
+}
+
+.order-invoice a {
+  color: #5d6975;
+  text-decoration: underline;
+}
+
+.order-invoice header {
+  padding: 10px 0;
+  margin-bottom: 30px;
+}
+
+#logo {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+#logo img {
+  width: 180px;
+}
+
+.order-invoice h1 {
+  border-top: 1px solid #5d6975;
+  border-bottom: 1px solid #5d6975;
+  color: #5d6975;
+  font-size: 2em;
+  line-height: 1.4em;
+  font-weight: normal;
+  text-align: center;
+  margin: 0 0 20px 0;
+  background: url(/images/dimension.png);
+}
+
+#customer {
+  float: left;
+}
+
+#customer span {
+  color: #5d6975;
+  text-align: right;
+  width: 68px;
+  margin-right: 8px;
+  display: inline-block;
+}
+
+#company {
+  float: right;
+  text-align: right;
+}
+
+#customer div,
+#company div {
+  white-space: nowrap;
+}
+
+.order-invoice table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin-bottom: 20px;
+}
+
+.order-invoice table tr:nth-child(2n-1) td {
+  background: #f5f5f5;
+}
+
+.order-invoice table tr.subtotal-row td,
+.order-invoice table tr.shipping-row td,
+.order-invoice table tr.tax-row td,
+.order-invoice table tr.grand-total-row td {
+  background: white;
+}
+
+.order-invoice table th {
+  padding: 5px;
+  color: #5d6975;
+  border-bottom: 1px solid #c1ced9;
+  white-space: nowrap;
+  font-weight: normal;
+}
+
+.order-invoice table .th-total,
+.order-invoice table .th-price {
+  text-align: end;
+}
+
+.order-invoice table .th-name {
+  padding-left: 30px;
+  padding-right: 15px;
+}
+
+.order-invoice table .th-qty {
+  text-align: center;
+  padding-left: 35px;
+}
+
+.order-invoice table td {
+  padding: 5px;
+  text-align: right;
+  font-size: 0.9em;
+}
+
+.order-invoice table td.id,
+.order-invoice table td.name {
+  text-overflow: ellipsis;
+  overflow-wrap: break-word;
+  max-width: 260px;
+  text-align: left;
+}
+
+.order-invoice table td.name {
+  max-width: 350px;
+  padding-left: 30px;
+  padding-right: 15px;
+}
+
+.order-invoice table td.price,
+.order-invoice table td.total {
+  text-align: end;
+}
+
+.order-invoice table td.qty {
+  text-align: center;
+  padding-left: 35px;
+}
+
+.order-invoice table td.grand-total {
+  padding-right: 0px;
+}
+
+.order-invoice table td.grand-total b {
+  border-top: 1px solid #5d6975;
+  padding-top: 4px;
+  padding-right: 5px;
+}
+
+.order-invoice table td.grand-total-amount {
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 0px;
+}
+
+.order-invoice table td.grand-total-amount span {
+  display: block;
+  border-top: 1px solid #5d6975;
+  padding-top: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#notices .notice {
+  color: #5d6975;
+}
+
+.order-invoice footer {
+  color: #5d6975;
+  width: 100%;
+  height: 30px;
+  border-top: 1px solid #c1ced9;
+  padding: 8px 0;
+  text-align: center;
+}
